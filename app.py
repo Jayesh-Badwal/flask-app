@@ -12,7 +12,7 @@ app = Flask(__name__)
 
 def get_model():
     global model
-    model = load_model("model.kerasmodel")
+    # model = load_model("model.kerasmodel")
     model = load_model("model.h5")
     print(" * Model loaded!")
 
